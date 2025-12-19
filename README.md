@@ -19,15 +19,16 @@ cat Docker-compose.yml
 
 ![Dockercomposefile](screenshots/docker_composefile.png)
 
-### How to run 
-## docker-compose up 
+##   How to run 
+##docker-compose up 
 
 This project demonstrates how to run WordPress with a MySQL database using Docker Compose. It includes multi-container setup, volumes for data persistence, and environment variables for service communication.
 
 ![Run](screenshots/docker-compose_up.png)
 
 
-## docker-compose ps
+#docker-compose ps
+docker-compose ps shows the list of all containers created by your Docker Compose file, their current status (running or stopped), and which ports they are using.
 
 ![Up](screenshots/docker-compose_ls.png)
 
@@ -50,11 +51,12 @@ Login to WordPress and start managing your site; all data is stored in the MySQL
 ![Welcome-wordpress](screenshots/welcom_to_word_press.png)
 
 
-This screenshot shows how to log in to a MySQL database and how to access the container
 
-# docker exec -it <container_id>  /bin/bash
-# Mysql login 
-#  mysql -u wordpress -p 
+## This screenshot shows how to log in to a MySQL database and how to access the container
+
+docker exec -it <container_id>  /bin/bash
+Mysql login 
+mysql -u wordpress -p 
 
 ![Mysql-login-and-container-exec](screenshots/login_mysql.png)
 
