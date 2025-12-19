@@ -61,10 +61,11 @@ This screenshot shows how to log in to a MySQL database and how to access the co
 ---------------------
 
 
-##Inside mysql 
-# use wordpress;
-# show tables
-# select * from wp_users;
+#  Inside mysql 
+
+ use wordpress;
+ show tables
+ select * from wp_users;
 
 use wordpress;       → Selects the WordPress database to work with.
 
